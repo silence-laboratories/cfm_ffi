@@ -1,0 +1,164 @@
+=== Benchmark with sanction list size: 1000 ===
+cfm_init_create_msg1           | Time: 18.160904ms | Size: 8232 bytes
+cfm_init_process_msg1          | Time: 42.747293ms | Size: 21560 bytes
+cfm_init_process_msg2          | Time: 31.332605ms | Size: 13360 bytes
+cfm_init_process_msg3          | Time: 7.063864ms | Size: 16432 bytes
+OT seeds creation total time: 99.543704ms
+abt_create_msg1                | Time: 18.348584394s | Size: 21625952 bytes
+abt_process_msg1               | Time: 37.664903441s | Size: 116757472 bytes
+abt_process_msg2               | Time: 16.659915145s | Size: 52056040 bytes
+abt_process_msg3               | Time: 2.915364082s | Size: 126000 bytes
+abt_process_msg4               | Time: 941.026µs | Size: 42024 bytes
+abt_process_msg5               | Time: 135.269µs | Size: 11 bytes
+Auth Beaver Triples total time: 75.924130277s
+Sanction list (big_y)          | Time: 55ns | Size: 32000 bytes
+Sanction list generation total time: 1.625699ms
+cfm_create_msg1                | Time: 93.94µs | Size: 8384 bytes
+cfm_process_msg1               | Time: 118.976952ms | Size: 78112 bytes
+cfm_process_msg2               | Time: 543.046µs | Size: 40816 bytes
+cfm_process_msg3               | Time: 863.312µs | Size: 53888 bytes
+cfm_process_msg4               | Time: 618.637µs | Size: 18048 bytes
+cfm_process_msg5               | Time: 245.402µs | Size: 16544 bytes
+cfm_process_msg6               | Time: 473.508µs | Size: 32736 bytes
+cfm_process_msg7               | Time: 694.108µs | Size: 24416 bytes
+cfm_process_msg8               | Time: 342.032µs | Size: 12128 bytes
+cfm_process_msg9               | Time: 199.61µs | Size: 5984 bytes
+cfm_process_msg10              | Time: 80.094µs | Size: 2912 bytes
+cfm_process_msg11              | Time: 71.185µs | Size: 1376 bytes
+cfm_process_msg12              | Time: 27.029µs | Size: 672 bytes
+cfm_process_msg13              | Time: 15.413µs | Size: 352 bytes
+cfm_process_msg14              | Time: 10.232µs | Size: 160 bytes
+cfm_process_msg15              | Time: 4.036µs | Size: 128 bytes
+cfm_process_msg16              | Time: 2.439µs | Size: 96 bytes
+cfm_process_msg17              | Time: 2.136µs | Size: 64 bytes
+cfm_process_msg18              | Time: 1.331µs | Size: 1 bytes
+CFM protocol total time: 124.073907ms
+
+Total Time = 76.149374s
+=================
+
+
+
+=== Benchmark with sanction list size: 10000 ===
+cfm_init_create_msg1           | Time: 9.551671ms | Size: 8232 bytes
+cfm_init_process_msg1          | Time: 33.810866ms | Size: 21560 bytes
+cfm_init_process_msg2          | Time: 32.471001ms | Size: 13360 bytes
+cfm_init_process_msg3          | Time: 7.479953ms | Size: 16432 bytes
+OT seeds creation total time: 83.441361ms
+abt_create_msg1                | Time: 17.563704905s | Size: 21625952 bytes
+abt_process_msg1               | Time: 37.869788578s | Size: 116757472 bytes
+abt_process_msg2               | Time: 18.114329186s | Size: 52056040 bytes
+abt_process_msg3               | Time: 2.34134496s | Size: 126000 bytes
+abt_process_msg4               | Time: 912.405µs | Size: 42024 bytes
+abt_process_msg5               | Time: 144.285µs | Size: 11 bytes
+Auth Beaver Triples total time: 76.236885198s
+Sanction list (big_y)          | Time: 116ns | Size: 320000 bytes
+Sanction list generation total time: 17.002116ms
+cfm_create_msg1                | Time: 117.94µs | Size: 8384 bytes
+cfm_process_msg1               | Time: 1.154739822s | Size: 654112 bytes
+cfm_process_msg2               | Time: 444.501µs | Size: 40816 bytes
+cfm_process_msg3               | Time: 535.068µs | Size: 53888 bytes
+cfm_process_msg4               | Time: 509.922µs | Size: 18048 bytes
+cfm_process_msg5               | Time: 248.145µs | Size: 16544 bytes
+cfm_process_msg6               | Time: 381.386µs | Size: 32736 bytes
+cfm_process_msg7               | Time: 517.504µs | Size: 24416 bytes
+cfm_process_msg8               | Time: 293.3µs | Size: 12128 bytes
+cfm_process_msg9               | Time: 156.178µs | Size: 5984 bytes
+cfm_process_msg10              | Time: 74.315µs | Size: 2912 bytes
+cfm_process_msg11              | Time: 35.974µs | Size: 1376 bytes
+cfm_process_msg12              | Time: 20.256µs | Size: 672 bytes
+cfm_process_msg13              | Time: 11.65µs | Size: 352 bytes
+cfm_process_msg14              | Time: 6.186µs | Size: 160 bytes
+cfm_process_msg15              | Time: 4.244µs | Size: 128 bytes
+cfm_process_msg16              | Time: 1.705µs | Size: 96 bytes
+cfm_process_msg17              | Time: 1.132µs | Size: 64 bytes
+cfm_process_msg18              | Time: 986ns | Size: 1 bytes
+CFM protocol total time: 1.159220751s
+
+Total Time = 77.496549s
+
+==================================
+
+
+=== Benchmark with sanction list size: 100000 ===
+cfm_init_create_msg1           | Time: 9.727194ms | Size: 8232 bytes
+cfm_init_process_msg1          | Time: 33.09167ms | Size: 21560 bytes
+cfm_init_process_msg2          | Time: 32.640661ms | Size: 13360 bytes
+cfm_init_process_msg3          | Time: 7.875095ms | Size: 16432 bytes
+OT seeds creation total time: 83.468715ms
+abt_create_msg1                | Time: 18.572041842s | Size: 21625952 bytes
+abt_process_msg1               | Time: 39.625775886s | Size: 116757472 bytes
+abt_process_msg2               | Time: 17.49021106s | Size: 52056040 bytes
+abt_process_msg3               | Time: 2.391757997s | Size: 126000 bytes
+abt_process_msg4               | Time: 1.004417ms | Size: 42024 bytes
+abt_process_msg5               | Time: 193.182µs | Size: 11 bytes
+Auth Beaver Triples total time: 78.417518211s
+Sanction list (big_y)          | Time: 125ns | Size: 3200000 bytes
+Sanction list generation total time: 171.630301ms
+cfm_create_msg1                | Time: 73.235µs | Size: 8384 bytes
+cfm_process_msg1               | Time: 12.031807679s | Size: 6414112 bytes
+cfm_process_msg2               | Time: 478.602µs | Size: 40816 bytes
+cfm_process_msg3               | Time: 539.653µs | Size: 53888 bytes
+cfm_process_msg4               | Time: 513.21µs | Size: 18048 bytes
+cfm_process_msg5               | Time: 247.72µs | Size: 16544 bytes
+cfm_process_msg6               | Time: 381.672µs | Size: 32736 bytes
+cfm_process_msg7               | Time: 511.163µs | Size: 24416 bytes
+cfm_process_msg8               | Time: 293.157µs | Size: 12128 bytes
+cfm_process_msg9               | Time: 155.247µs | Size: 5984 bytes
+cfm_process_msg10              | Time: 74.338µs | Size: 2912 bytes
+cfm_process_msg11              | Time: 36.087µs | Size: 1376 bytes
+cfm_process_msg12              | Time: 21.342µs | Size: 672 bytes
+cfm_process_msg13              | Time: 10.763µs | Size: 352 bytes
+cfm_process_msg14              | Time: 7.332µs | Size: 160 bytes
+cfm_process_msg15              | Time: 2.714µs | Size: 128 bytes
+cfm_process_msg16              | Time: 1.641µs | Size: 96 bytes
+cfm_process_msg17              | Time: 1.1µs | Size: 64 bytes
+cfm_process_msg18              | Time: 1.196µs | Size: 1 bytes
+CFM protocol total time: 12.040933273s
+
+Total Time = 90.713550s
+
+======================================================
+
+
+
+=== Benchmark with sanction list size: 1000000 ===
+cfm_init_create_msg1           | Time: 9.231441ms | Size: 8232 bytes
+cfm_init_process_msg1          | Time: 34.331002ms | Size: 21560 bytes
+cfm_init_process_msg2          | Time: 34.208181ms | Size: 13360 bytes
+cfm_init_process_msg3          | Time: 8.230733ms | Size: 16432 bytes
+OT seeds creation total time: 86.142038ms
+abt_create_msg1                | Time: 18.517964581s | Size: 21625952 bytes
+abt_process_msg1               | Time: 37.480272441s | Size: 116757472 bytes
+abt_process_msg2               | Time: 18.060574203s | Size: 52056040 bytes
+abt_process_msg3               | Time: 2.841552687s | Size: 126000 bytes
+abt_process_msg4               | Time: 1.006464ms | Size: 42024 bytes
+abt_process_msg5               | Time: 161.221µs | Size: 11 bytes
+Auth Beaver Triples total time: 77.245548821s
+Sanction list (big_y)          | Time: 142ns | Size: 32000000 bytes
+Sanction list generation total time: 1.799438636s
+cfm_create_msg1                | Time: 86.301µs | Size: 8384 bytes
+cfm_process_msg1               | Time: 125.16075712s | Size: 64014112 bytes
+cfm_process_msg2               | Time: 1.598175ms | Size: 40816 bytes
+cfm_process_msg3               | Time: 559.944µs | Size: 53888 bytes
+cfm_process_msg4               | Time: 712.116µs | Size: 18048 bytes
+cfm_process_msg5               | Time: 255.102µs | Size: 16544 bytes
+cfm_process_msg6               | Time: 398.306µs | Size: 32736 bytes
+cfm_process_msg7               | Time: 519.373µs | Size: 24416 bytes
+cfm_process_msg8               | Time: 300.928µs | Size: 12128 bytes
+cfm_process_msg9               | Time: 200.451µs | Size: 5984 bytes
+cfm_process_msg10              | Time: 82.011µs | Size: 2912 bytes
+cfm_process_msg11              | Time: 46.616µs | Size: 1376 bytes
+cfm_process_msg12              | Time: 22.286µs | Size: 672 bytes
+cfm_process_msg13              | Time: 13.536µs | Size: 352 bytes
+cfm_process_msg14              | Time: 8.673µs | Size: 160 bytes
+cfm_process_msg15              | Time: 4.61µs | Size: 128 bytes
+cfm_process_msg16              | Time: 3.052µs | Size: 96 bytes
+cfm_process_msg17              | Time: 2.006µs | Size: 64 bytes
+cfm_process_msg18              | Time: 1.834µs | Size: 1 bytes
+CFM protocol total time: 125.240944682s
+
+Total Time = 204.372074s
+
+=====================================
+
